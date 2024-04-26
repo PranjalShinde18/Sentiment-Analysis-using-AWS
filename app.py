@@ -10,6 +10,8 @@ import numpy as np
 
 app = Flask(__name__)
 
+
+
 # Download NLTK resources (only required once)
 nltk.download('stopwords')
 nltk.download('punkt')
